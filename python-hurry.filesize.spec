@@ -77,6 +77,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc CHANGES.txt
+%dir %{py_sitescriptdir}/hurry
 %{py_sitescriptdir}/hurry/filesize
 %{py_sitescriptdir}/%{egg_name}-%{version}-py*.egg-info
 %{py_sitescriptdir}/%{egg_name}-%{version}-py*.pth
@@ -86,6 +87,7 @@ rm -rf $RPM_BUILD_ROOT
 %files -n python3-%{pypi_name}
 %defattr(644,root,root,755)
 %doc CHANGES.txt
+%dir %{py3_sitescriptdir}/hurry
 %{py3_sitescriptdir}/hurry/filesize
 %{py3_sitescriptdir}/%{egg_name}-%{version}-py*.egg-info
 %{py3_sitescriptdir}/%{egg_name}-%{version}-py*.pth
