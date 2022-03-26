@@ -9,7 +9,7 @@
 Summary:	Python library for human readable file sizes (or anything sized in bytes)
 Name:		python-%{pypi_name}
 Version:	0.9
-Release:	5
+Release:	6
 License:	ZPL v2.1
 Group:		Libraries/Python
 Source0:	https://pypi.debian.net/%{module}/%{module}-%{version}.tar.gz
